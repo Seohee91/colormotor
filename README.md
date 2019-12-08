@@ -1,6 +1,7 @@
 # colormotor
 
 static void rootfunc(void * arg) {
+    
 	motor_init();  //모터초기화
 	encoder_init();  //모터초기화
 	glcd_init();  //glcd초기화
